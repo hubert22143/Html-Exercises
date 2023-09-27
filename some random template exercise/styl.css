@@ -1,0 +1,49 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.banner , footer{
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+.BlokCiasteczek{
+    background-color: #A1887F;
+    color: white;
+    padding: 10px;
+    text-align: right;
+}
+.wrapper{
+    height: 82vh;
+    display: flex;
+    background-color: #D7CCC8;
+}
+.left{
+    width: 35%;
+    height: 550px;
+}
+.right{
+    width: 65%;
+    height: 550px;
+}
+.grid-holder{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 15px;
+    padding: 20px;
+}
+ol , ul , li , a{
+    color: indigo;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+#wlochy:hover{
+    box-shadow: 0 0 10px 2px indigo;
+}

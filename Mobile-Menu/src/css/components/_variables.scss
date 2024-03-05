@@ -1,0 +1,27 @@
+$colors: (
+  primary: #3498db,
+  secondary: #2ecc71,
+  accent: #e74c3c,
+  background: #ecf0f1,
+  text: #34495e,
+  link: #2980b9,
+  border: #bdc3c7,
+  success: #27ae60,
+  warning: #f39c12,
+  error: #c0392b,
+  info: #3498db,
+);
+
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+
+$base-font-size: 1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
